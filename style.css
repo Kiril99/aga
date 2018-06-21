@@ -31,7 +31,7 @@ body{
 .blockCont{
 	
 	margin-top: 40px;
-	width: 100%;
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,12 +49,13 @@ body{
 	color: #fe0000;
 }
 #map{
+
 	width: 273px;
 	height: 168px;
 	background: black;
 }
 #textContX{
-	margin-right: 480px;
+	width: 500px;
 
 }
 #textContX p{
@@ -66,6 +67,39 @@ body{
 	font-size: 20px;
 	color: #fe0000;
 }
+#maps{
+	width: 273px;
+	height: 168px;
+	background: black;
+	visibility: hidden;
+}
+#ukr{
+	margin-right: 30px;
+}
+
+@media screen and (max-width: 1207px) {
+	.blockCont{
+	justify-content: center;
+	
+}
+#maps{
+	display: none;
+}
+#map{
+	margin-top: 40px;
+}
+}
+@media screen and (max-width: 843px) {
+	#textContX{
+	text-align: center;
+	}
+	#textCont{
+	text-align: center;
+	}
+	
+
+}
+
 
 
 
