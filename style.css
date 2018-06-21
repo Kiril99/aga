@@ -1,0 +1,72 @@
+body{
+	margin:0 auto;
+	max-width: 2000px;
+	 font-family: "Myriad Pro";
+}
+
+#contactH{
+    color: rgb(37,37,37);
+    font-family: 'RalewayBold';
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:10px;
+}
+.heart{
+    display: flex;
+    justify-content: center;
+}
+.heart div{
+    margin: 10px;
+}
+#bigSec{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#smallSec{
+	width: 75%;
+
+}
+.blockCont{
+	
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#textCont{
+	width: 500px;
+}
+#textCont p{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+#textCont span{
+	font-size: 20px;
+	color: #fe0000;
+}
+#map{
+	width: 273px;
+	height: 168px;
+	background: black;
+}
+#textContX{
+	margin-right: 480px;
+
+}
+#textContX p{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+#textContX span{
+	font-size: 20px;
+	color: #fe0000;
+}
+
+
+
+
